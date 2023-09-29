@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctf-Ph-GTf">
-                                <rect key="frame" x="16" y="260" width="361" height="333"/>
+                                <rect key="frame" x="16" y="259.66666666666669" width="361" height="333.00000000000006"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="333" id="C20-ev-Tf4"/>
                                     <constraint firstAttribute="width" constant="361" id="dRU-ZM-ghQ"/>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6N-IZ-9lh">
-                                <rect key="frame" x="69" y="379" width="254" height="94"/>
+                                <rect key="frame" x="69" y="378.66666666666669" width="254" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="6ch-Fa-z85"/>
                                     <constraint firstAttribute="width" constant="254" id="Ljd-Mo-ciE"/>
@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSw-JG-qnQ">
-                                <rect key="frame" x="148" y="628" width="97" height="38"/>
+                                <rect key="frame" x="148" y="627.66666666666663" width="97" height="38"/>
                                 <color key="tintColor" systemColor="systemCyanColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Settings">
@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0u-Nm-3mp">
-                                <rect key="frame" x="151" y="184" width="91" height="47"/>
+                                <rect key="frame" x="151" y="184" width="91" height="46.666666666666657"/>
                                 <color key="tintColor" systemColor="systemCyanColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reset">
@@ -68,6 +68,8 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="v6N-IZ-9lh" firstAttribute="top" secondItem="Y0u-Nm-3mp" secondAttribute="bottom" constant="148" id="0nJ-M0-5uD"/>
+                            <constraint firstItem="ctf-Ph-GTf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Sr-QL-PbH"/>
+                            <constraint firstItem="ctf-Ph-GTf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GQJ-hV-LIT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y0u-Nm-3mp" secondAttribute="trailing" constant="151" id="Gjj-c6-Iz4"/>
                             <constraint firstItem="ctf-Ph-GTf" firstAttribute="top" secondItem="Y0u-Nm-3mp" secondAttribute="bottom" constant="29" id="Hg9-mj-Puu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v6N-IZ-9lh" secondAttribute="trailing" constant="70" id="NOv-xa-0Ft"/>
